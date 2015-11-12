@@ -1,4 +1,22 @@
+div.cities {
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;
+} 
+
+div.group  {
+	background-color:grey;
+}
+
+/* class attribute: note */
 span.note  {
 	font-size:120%;
 	color:red;
+}
+
+/* id attribute for special element */
+span#my01  {
+	font-size:120%;
+	color:yellow;
 }
