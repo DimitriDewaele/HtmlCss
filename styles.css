@@ -6,7 +6,7 @@ div.cities {
 } 
 
 div.group  {
-	background-color:grey;
+	background-color:grey !important;
 }
 
 /* class attribute: note */
@@ -20,3 +20,13 @@ span#my01  {
 	font-size:120%;
 	color:yellow;
 }
+
+/* group classes */
+.groupA  { background-color:black; padding:20px;}
+.groupB  { background-color:gray !important; padding:10px;}
+.groupC  { background-color:white; padding:5px;}
+
+/* id attribute for special element */
+#id-1  { background-color:yellow; margin:30px;}
+#id-2 { background-color:yellow; margin:30px;}
+#id-299  { background-color:yellow; margin:30px;}
