@@ -1,3 +1,9 @@
+/* class attribute: group */
+div.group  {
+	background-color:grey;
+}
+
+/* class attribute: cities */
 div.cities {
     background-color:black;
     color:white;
@@ -5,17 +11,13 @@ div.cities {
     padding:20px;
 } 
 
-div.group  {
-	background-color:grey !important;
-}
-
 /* class attribute: note */
 span.note  {
 	font-size:120%;
 	color:red;
 }
 
-/* id attribute for special element */
+/* style for element with id:my01 - will overrule the class attribute*/
 span#my01  {
 	font-size:120%;
 	color:yellow;
@@ -23,10 +25,10 @@ span#my01  {
 
 /* group classes */
 .groupA  { background-color:black; padding:20px;}
-.groupB  { background-color:gray !important; padding:10px;}
+.groupB  { background-color:gray;  padding:10px;}
 .groupC  { background-color:white; padding:5px;}
 
 /* id attribute for special element */
-#id-1  { background-color:yellow; margin:30px;}
-#id-2 { background-color:yellow; margin:30px;}
-#id-299  { background-color:yellow; margin:30px;}
+#id-1  { background-color:yellow;}
+#id-2 { background-color:yellow;}
+#id-299  { background-color:yellow;}
